@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset = "utf-8" >
+	<title> Contact Me </title>
+</head>
+
+<body>
+	<center> 
+	<h1><center>
+	<a href ="index.htm"> 
+		<font size="4"> HOME PAGE| </a>
+	<a href="films.htm">
+		<font size="4">FILMS|</a>
+	<a href="books.htm">
+		<font size="4">BOOKS|</a>
+	<a href="musics.htm">
+		<font size="4">MUSICS|</a>
+	<a href="usefullinks.htm">
+		<font size="4">USEFUL LINKS|</a>
+	<a href="contactme.htm">
+		<font size="6">CONTACT ME|</a>
+	<a href="registration.htm">
+		<font size="4"> REGISTER</a> 	
+	</h1>
+	<form action="test.php" enctype="multipart/form&shy;data" method="post">
+	<fieldset> 
+	<legend> Communication Form </legend>
+	<label for ="theName"> Name Surname:     </label>
+	<input type="text" name="name" id="theName"> 
+	<br><br>
+	<label for="theEmail"> Email:&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; </label>
+	<input type="email" name="email" id="theEmail">
+	<br><br>
+	<label for="thePhone"> &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Phone Number: &nbsp; &nbsp;&nbsp; &nbsp;</label>  
+	<input type="phone" name="phone" placeholder="Max length 11" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" size="11" required > 
+	<span class="note">Format: 123-456-7890</span>
+	<br><br>
+	<label for ="theIssue"> Issue:   &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  </label>
+	<input type="text" name="issue" id="theIssue">
+	<br><br>
+	<p> Message: &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+		<textarea rows="8" cols="30" name="aboutme">
+	</textarea></p>
+	<br>
+	</fieldset>
+	<button onclick="myFunction()">Send</button>
+	<script>
+	function myFunction() {
+		alert("Your message is sent!");
+	}
+    </script>
+	<br> <br> <br>
+	<h2><center> OR
+	</h2>
+	<p> If you want to contact me, please click to the address below:
+	<br><br>
+	<a href="mailto:omerkabalay@gmail.com"> Send Me Email </a>
+	<br>
+	<a href="file:///C:/Users/casper/Desktop/html/index.htm"> 
+		<img src="home.png" alt="Home Page" width="50" height="50"> </a>
+	<br>
+	<a href="https://www.facebook.com/omer.kabalay"> 
+		<img src="face.png" alt="Facebook Page" width="50" height="50" > </a>
+	<a href="https://twitter.com/obirfenomer"> 
+		<img src="twitter.png" alt=" Twitter Page" width="50" height="50"  > </a>
+	<a href="https://www.instagram.com/omerkabalay/?hl=tr"> 
+		<img src="instagram.png" alt="Instagram Page" width="50" height="50" > </a>
+		
+</body>
+</html> 
